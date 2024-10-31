@@ -1,0 +1,127 @@
+#readability {
+	padding: 70px;
+	width: 650px;
+}
+
+#readability * {
+	line-height: 1.4em;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, sans-serif;
+	font-size: 14pt;
+	color: #666;
+}
+
+#readability p {
+	margin-bottom: 10px;
+}
+
+#readability a, #readability h1.title {
+	color: #333333;
+	text-decoration: none;
+}
+
+#readability p, #readability h1, #readability h2, #readability h3, #readability h4, #readability h5, #readability h6 {
+	width: 650px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#readability p {
+	text-align: justify !important;
+}
+
+#readability h1, #readability h2, #readability h3, #readability h4, #readability h5, #readability h6 {
+	text-align: left !important;
+	text-transform: none;
+	letter-spacing: normal;
+	text-rendering: auto;
+}
+
+#readability h1 {
+	font-size: 18pt;
+	font-weight: bold;
+	margin-top: 24px;
+}
+
+#readability h2 {
+	font-size: 15pt;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#readability h3 {
+	font-size: 14pt;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#readability h4 {
+	font-size: 14pt;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+#readability h5 {
+	font-size: 14pt;
+	margin-top: 10px;
+}
+
+#readability h6 {
+	font-size: 14pt;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+#readability blockquote {
+	margin: 1em 20px;
+	padding-left: 25px;
+	background: transparent url(images/quote.jpg) no-repeat;
+}
+
+#readability blockquote * {
+	font-size: 13pt;
+	width: 580px;
+}
+
+/* Hack for The Erudite theme */
+#readability span.before.quote, #readability span.after.quote {
+	display: none;
+}
+
+#readability ul li {
+	list-style: disc inside;
+}
+
+#readability ol li {
+	list-style: decimal inside;
+}
+
+#readability ul li, #readability ol li {
+	text-indent: -.5em;
+	padding-left: .5em;
+}
+
+#readability ol, #readability ul {
+	margin-bottom: 1em;
+}
+
+#readability img {
+	padding: 4px;
+	max-width: 100%;
+	height: auto;
+}
+
+#readability img.alignleft {
+	margin: 0px 10px 2px 0px;
+}
+
+#readability img.aligncenter {
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#readability img.alignright {
+	margin: 0px 0px 2px 10px;
+}
